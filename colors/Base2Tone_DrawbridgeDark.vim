@@ -40,7 +40,7 @@ let s:cterm0F = "62    "
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "Base2Tone_DrawbridgeDark"
+let g:colors_name = "darkbridge"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr)
