@@ -1,6 +1,3 @@
-" Base2Tone_DrawbridgeLight (https://github.com/atelierbram/Base2Tone-vim)
-" Scheme: by Bram de Haan, adapted from DuoTone themes by Simurai (http://simurai.com/projects/2016/01/01/duotone-themes)
-
 " GUI color definitions
 let s:gui00 = "f9fbfb"
 let s:gui01 = "e1e8ea"
@@ -40,7 +37,7 @@ let s:cterm0F = "153   "
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "Base2Tone_DrawbridgeLight"
+let g:colors_name = "yeti"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr)
