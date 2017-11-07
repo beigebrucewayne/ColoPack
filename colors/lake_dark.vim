@@ -1,23 +1,23 @@
-" Base2Tone_LakeDark (https://github.com/atelierbram/Base2Tone-vim)
+" Base2Tone_SeaDark (https://github.com/atelierbram/Base2Tone-vim)
 " Scheme: by Bram de Haan, adapted from DuoTone themes by Simurai (http://simurai.com/projects/2016/01/01/duotone-themes)
 
 " GUI color definitions
-let s:gui00 = "192d34"
-let s:gui01 = "223c44"
-let s:gui02 = "335966"
-let s:gui03 = "3d6876"
-let s:gui04 = "467686"
-let s:gui05 = "499fbc"
-let s:gui06 = "7dc2d9"
-let s:gui07 = "e1f7ff"
-let s:gui08 = "2f7289"
-let s:gui09 = "b7a21a"
-let s:gui0A = "cbbb4d"
-let s:gui0B = "7a7971"
-let s:gui0C = "ffeb66"
-let s:gui0D = "d6c65c"
-let s:gui0E = "3e91ac"
-let s:gui0F = "36829b"
+let s:gui00 = "1d262f"
+let s:gui01 = "27323f"
+let s:gui02 = "405368"
+let s:gui03 = "4a5f78"
+let s:gui04 = "738191"
+let s:gui05 = "57718e"
+let s:gui06 = "7eb6f6"
+let s:gui07 = "ebf4ff"
+let s:gui08 = "004a9e"
+let s:gui09 = "0aa370"
+let s:gui0A = "0fc78a"
+let s:gui0B = "717a77"
+let s:gui0C = "47ebb4"
+let s:gui0D = "14e19d"
+let s:gui0E = "34659d"
+let s:gui0F = "1757a1"
 
 " Terminal color definitions
 let s:cterm00 = "236   "
@@ -25,22 +25,22 @@ let s:cterm01 = "237   "
 let s:cterm02 = "240   "
 let s:cterm03 = "242   "
 let s:cterm04 = "245   "
-let s:cterm05 = "38    "
-let s:cterm06 = "117   "
-let s:cterm07 = "15    "
-let s:cterm08 = "24    "
-let s:cterm09 = "143   "
-let s:cterm0A = "144   "
-let s:cterm0B = "244   "
-let s:cterm0C = "221   "
-let s:cterm0D = "144   "
-let s:cterm0E = "32    "
-let s:cterm0F = "31    "
+let s:cterm05 = "242   "
+let s:cterm06 = "75    "
+let s:cterm07 = "195   "
+let s:cterm08 = "25    "
+let s:cterm09 = "35    "
+let s:cterm0A = "42    "
+let s:cterm0B = "102   "
+let s:cterm0C = "49    "
+let s:cterm0D = "42    "
+let s:cterm0E = "241   "
+let s:cterm0F = "25    "
 
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "lake_dark"
+let g:colors_name = "Base2Tone_SeaDark"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr)
@@ -313,4 +313,5 @@ delf <sid>cterm
 " Remove color variables
 unlet s:gui00 s:gui01 s:gui02 s:gui03  s:gui04  s:gui05  s:gui06  s:gui07  s:gui08  s:gui09 s:gui0A  s:gui0B  s:gui0C  s:gui0D  s:gui0E  s:gui0F
 unlet s:cterm00 s:cterm01 s:cterm02 s:cterm03 s:cterm04 s:cterm05 s:cterm06 s:cterm07 s:cterm08 s:cterm09 s:cterm0A s:cterm0B s:cterm0C s:cterm0D s:cterm0E s:cterm0F
+
 
